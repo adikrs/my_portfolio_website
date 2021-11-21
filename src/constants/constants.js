@@ -1,39 +1,42 @@
-export const projects = [
+export const experiences = [
   {
-    title: 'MERN STACK',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+    title: 'JSW Group',
+    description: "Created a web application for making daily data entry, daily ore planning and alarm-generation easy and hassle-free",
+    image: '/images/JSW.png',
+    tags: ['Spring Boot', 'MySQL', 'Ajax', 'Bootstrap4', 'CanvasJS'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
+];
+
+export const projects = [
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Secure E-Voting',
+    description: "Created two polling apps with security features using Simplistic Voting Protocol #2 (Digital Signatures) with single CTF and Blind Signatures.",
+    image: '/images/11.png',
+    tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://github.com/TejaswitaSom/secure-evoting',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
+    title: 'DES Analyser',
+    description: "Implemented Data Encryption Standard (from scratch) in Python to study DES with different hyperparameters and graphically demonstrated the Avalanche Effect.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
+    tags: ['Django', 'CanvasJS', 'Ajax', 'Bootstrap4'],
+    source: 'https://github.com/TejaswitaSom/NetSec-PA1-18045107',
     visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
+    title: 'Federated Learning',
+    description: "Implementation of a simple abstraction of Federated Learning.",
+    image: '/images/Federated_Learning.png',
+    tags: ['Python', 'Keras'],
+    source: 'https://github.com/TejaswitaSom/Project_05-UC',
     visit: 'https://google.com',
     id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ];
 

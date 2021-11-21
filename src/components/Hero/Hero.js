@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, ExternalLinks } from './HeroStyles';
 
 const Hero = (props) => (
   <>
@@ -13,9 +13,10 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        A Senior Undergraduate with a zeal to apply the creative mind and technical skills to solve real-world problems, through Data Structures, Algorithms and Software Development. 
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+          <ExternalLinks href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</ExternalLinks>
+        {/* <Button onClick={props.handleClick} href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</Button> */}
       </LeftSection>
     </Section>
   </>
