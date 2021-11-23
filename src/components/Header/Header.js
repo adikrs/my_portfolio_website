@@ -15,7 +15,17 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-    <li>
+      <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li> 
+      <li>
+        <Link href="#tech">
+          <NavLink>Skills</NavLink>
+        </Link>
+      </li> 
+      <li>
         <Link href="#experiences">
           <NavLink>Experiences</NavLink>
         </Link>
@@ -24,17 +34,17 @@ const Header = () =>  (
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
+      </li>   
+      <li>
+        <Link href="#achievements">
+          <NavLink>Achievements</NavLink>
+        </Link>
       </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+      {/* <li>
+        <Link href="#projects">
+          <NavLink>Contact</NavLink>
         </Link>
-      </li>        
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>        
+      </li>     */}
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com/TejaswitaSom">

@@ -24,13 +24,13 @@ export const ImageContainer = styled.div`
 `
 
 export const MainImage = styled.img`
-  width: 100%;
+  width: 10rem;
 `
 
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -60,9 +60,9 @@ export const ListContainer = styled.div`
   }
 `
 
-export const ListTitle = styled.h4`
+export const ListTitle = styled.h5`
   font-weight: 700;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #FFFFFF;
@@ -82,8 +82,9 @@ export const ListTitle = styled.h4`
 `
 
 export const ListParagraph = styled.p`
-  font-size: 18px;
+  font-size: 22px;
   line-height: 30px;
+  text-align : center;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
@@ -115,9 +116,10 @@ export const ListItem = styled.li`
 
 export const ListIcon = styled.img`
   display: block;
-  width: 48px;
-  height: 48px;
+  width: 100px;
+  height: auto;
   margin-bottom: 10px;
+  justify-content : center;
   
   @media ${props => props.theme.breakpoints.md}{
     width: 40px;

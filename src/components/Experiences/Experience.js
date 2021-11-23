@@ -5,9 +5,9 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { experiences } from '../../constants/constants';
 
 const Experiences = () => (
-  <Section nopadding id="experiences">
-    <SectionDivider />
-    <SectionTitle main>Experiences</SectionTitle>
+  <Section id="experiences">
+    <SectionDivider divider/>
+    <SectionTitle>Experiences</SectionTitle>
     <GridContainer>
       {experiences.map((ex, i) => {
         return (
@@ -19,7 +19,7 @@ const Experiences = () => (
             </TitleContent>
             <CardInfo className="card-info">{ex.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              {/* <TitleContent>Stack</TitleContent> */}
               <TagList>
                 {ex.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;

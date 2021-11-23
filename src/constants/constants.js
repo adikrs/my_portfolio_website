@@ -1,9 +1,9 @@
 export const experiences = [
   {
-    title: 'JSW Group',
+    title: 'JSW Group - Software Summer Intern (SIP-21)',
     description: "Created a web application for making daily data entry, daily ore planning and alarm-generation easy and hassle-free",
     image: '/images/JSW.png',
-    tags: ['Spring Boot', 'MySQL', 'Ajax', 'Bootstrap4', 'CanvasJS'],
+    tags: ['Spring Boot', 'MySQL', 'AJAX', 'Bootstrap4', 'CanvasJS'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
@@ -13,7 +13,7 @@ export const experiences = [
 export const projects = [
   {
     title: 'Secure E-Voting',
-    description: "Created two polling apps with security features using Simplistic Voting Protocol #2 (Digital Signatures) with single CTF and Blind Signatures.",
+    description: "Created two polling apps with security features using Public Key Cryptography algorithms - Simplistic Voting Protocol #2 (Digital Signatures) with single CTF and Blind Signatures.",
     image: '/images/11.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/TejaswitaSom/secure-evoting',
@@ -24,7 +24,7 @@ export const projects = [
     title: 'DES Analyser',
     description: "Implemented Data Encryption Standard (from scratch) in Python to study DES with different hyperparameters and graphically demonstrated the Avalanche Effect.",
     image: '/images/2.png',
-    tags: ['Django', 'CanvasJS', 'Ajax', 'Bootstrap4'],
+    tags: ['Django', 'CanvasJS', 'AJAX', 'Bootstrap4'],
     source: 'https://github.com/TejaswitaSom/NetSec-PA1-18045107',
     visit: 'https://google.com',
     id: 1,
