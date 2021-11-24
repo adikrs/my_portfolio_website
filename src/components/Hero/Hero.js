@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 // import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, ExternalLinks, RightSection, Img} from './HeroStyles';
+import { LeftSection, ExternalLinks, RightSection, Img, ImageContainer} from './HeroStyles';
 
 const Hero = (props) => (
   <>
@@ -19,6 +19,9 @@ const Hero = (props) => (
         <ExternalLinks href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</ExternalLinks>
         {/* <Button onClick={props.handleClick} href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</Button> */}
       </LeftSection>
+      <ImageContainer>
+        <Img src={"/images/Profile (2).jpeg"}></Img>
+      </ImageContainer>
       {/* <RightSection >
         <SectionText>
           aasdfghjk

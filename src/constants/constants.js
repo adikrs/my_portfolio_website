@@ -23,7 +23,7 @@ export const projects = [
   {
     title: 'DES Analyser',
     description: "Implemented Data Encryption Standard (from scratch) in Python to study DES with different hyperparameters and graphically demonstrated the Avalanche Effect.",
-    image: '/images/2.png',
+    image: '/images/DES.png',
     tags: ['Django', 'CanvasJS', 'AJAX', 'Bootstrap4'],
     source: 'https://github.com/TejaswitaSom/NetSec-PA1-18045107',
     visit: 'https://google.com',
