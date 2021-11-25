@@ -13,7 +13,7 @@ const Hero = (props) => (
           This is Tejaswita Som  
         </SectionTitle>
         <SectionText>
-        A Senior Undergraduate with a zeal to apply the creative mind and technical skills to solve real-world problems, through Data Structures, Algorithms and Software Development. 
+        A Senior Undergraduate from IIT(BHU) - Varanasi, with a zeal to apply the creative mind and technical skills to solve real-world problems, through Data Structures, Algorithms and Software Development. 
         </SectionText>
         <br/>
         <ExternalLinks href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</ExternalLinks>
