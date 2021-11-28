@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { value: 'Rank 177', text: 'Coding Ninjas – CodeKaze’21',},
+  { value: 'Rank 181', text: 'Coding Ninjas – CodeKaze’21',},
   { value: '4', text: 'Star on CodeChef', },
   { value: 'Round 1A', text: 'CodeChef SnackDown-21 - Qualified', },
   { value: "33rd", text: 'Position - Myntra HackerRamp-20', }

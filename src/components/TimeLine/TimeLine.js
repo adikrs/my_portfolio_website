@@ -15,6 +15,9 @@ const Timeline = () => {
       <SectionText>
       I also have a knack for Problem Solving and also like to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef and others.
       </SectionText>
+      <SectionText>
+      Apart from Programming and Development, I love to pursue my hobby - dancing. I have wonderful memories of dancing during my school and college days about practising, performing and winning in competitions.
+      </SectionText>
     </Section>
   );
 };
