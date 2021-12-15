@@ -6,8 +6,8 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { value: 'Rank 181', text: 'Coding Ninjas – CodeKaze’21',},
-  { value: '4', text: 'Star on CodeChef', },
-  { value: 'Round 1A', text: 'CodeChef SnackDown-21 - Qualified', },
+  { value: '4 Star (1928)', text: 'On CodeChef', },
+  { value: 'Top 10', text: 'Females (Global)  in  Pre-Elimination SnackDown-21', },
   { value: "33rd", text: 'Position - Myntra HackerRamp-20', }
 ];
 
