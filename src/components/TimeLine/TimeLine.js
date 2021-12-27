@@ -13,7 +13,7 @@ const Timeline = () => {
       I get satisfaction and joy after creating software products that gives value to people's life.
       </SectionText>
       <SectionText>
-      I aso have a knack for Problem Solving and also like to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef and others.
+      I aso have a knack for Problem Solving and also like to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef, Atcoder and others.
       </SectionText>
       
     </Section>
