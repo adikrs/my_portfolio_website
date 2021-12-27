@@ -10,10 +10,10 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I get satisfaction and joy after creating software products that gives value to people's life.
+      I get satisfaction and joy after creating software products that give value to people's life.
       </SectionText>
       <SectionText>
-      I aso have a knack for Problem Solving and also like to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef, Atcoder and others.
+      I also have a knack for Problem Solving and love to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef, Atcoder, and others.
       </SectionText>
       
     </Section>

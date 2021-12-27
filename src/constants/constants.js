@@ -1,20 +1,20 @@
 export const experiences = [
   {
-    title: 'Stylumia - SWE Winter Intern',
-    description: 
-    "Upgrading the code to new technology versions and making them fast asynchronously.",
-    image: '/images/STYLUMIA.png',
-    tags: ['Flask', 'Python', 'Sanic', 'Docker', 'RestAPIs' ],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
     title: 'ORACLE (Summer Intern) - Member of Technical Staff (Oracle cloud Infrastructure)',
     description: 
     "Built a streaming application from scratch and learned various aspects of Web Development and Cloud during the course of the internship. ",
     image: '/images/ORACLE.jpg',
     tags: ['React', 'Node.js', 'GraphQL', 'Apollo', 'Docker', 'RestAPIs', 'SQL', ],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
+    title: 'Stylumia - SWE Intern',
+    description: 
+    "Upgrading the code to new technology versions and making them fast asynchronously.",
+    image: '/images/STYLUMIA.png',
+    tags: ['Flask', 'Python', 'Sanic', 'Docker', 'RestAPIs' ],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
