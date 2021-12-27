@@ -9,11 +9,11 @@ const Experiences = () => (
     <SectionDivider divider/>
     <SectionTitle>Experiences</SectionTitle>
     <GridContainer>
-      <Img src={"/images/jswlogo (2).jpg"} />
+      {/* <Img src={"/images/ORACLE.jpg"} /> */}
       {experiences.map((ex, i) => {
         return (
           <BlogCard key={i}>
-            {/* <Img src={ex.image} /> */}
+            <Img src={ex.image}  />
             <TitleContent>
               <HeaderThree title>{ex.title}</HeaderThree>
               <Hr />

@@ -142,13 +142,45 @@ const Technologies = () =>  (
         </ImageContainer>
         <LinkItem href="https://codeforces.com/profile/adkrsingh">Codeforces</LinkItem>
       </ListItem>
+
       <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/ATCODER.png'}></ListIcon>
+        </ImageContainer>
+        <LinkItem href="https://atcoder.jp/users/adikrsingh">Atcoder</LinkItem>
+      </ListItem>
+
+
+    </List3>
+
+    <List3>
+
+    <ListItem>
+          <ImageContainer>
+            <ListIcon src={'/images/HACKERRANK.jpg'}></ListIcon>
+          </ImageContainer>
+          <LinkItem href="https://www.hackerrank.com/adikrsingh">Hackerrank</LinkItem>
+        </ListItem>
+      
+ 
+      <ListItem>
+          <ImageContainer>
+            <ListIcon src={'/images/HACKEREARTH.png'}></ListIcon>
+          </ImageContainer>
+          <LinkItem href="https://www.hackerearth.com/@adikrs">Hackerearth</LinkItem>
+        </ListItem>
+
+
+        <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/lc.png'}></ListIcon>
         </ImageContainer>
         <LinkItem href="https://leetcode.com/adikrsingh/">LeetCode</LinkItem>
       </ListItem>
+
+
     </List3>
+
   </Section>
 );
 
