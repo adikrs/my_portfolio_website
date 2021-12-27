@@ -8,18 +8,18 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
     <ListTitle>Languages</ListTitle>
-    <List4>
+    <List5>
+    <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/C.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>C</ListParagraph>
+      </ListItem>
       <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/c-logo.png'}></ListIcon>
         </ImageContainer>
         <ListParagraph>C++</ListParagraph>
-      </ListItem>
-      <ListItem>
-        <ImageContainer>
-          <ListIcon src={'/images/java-logo-1.png'}></ListIcon>
-        </ImageContainer>
-        <ListParagraph>Java</ListParagraph>
       </ListItem>
       <ListItem>
         <ImageContainer>
@@ -33,42 +33,82 @@ const Technologies = () =>  (
         </ImageContainer>
         <ListParagraph>JavaScript</ListParagraph>
       </ListItem>
-    </List4>
-    <ListTitle>Technologies</ListTitle>
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/SQL.jpg'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>SQL</ListParagraph>
+      </ListItem>
+    </List5>
+    <ListTitle>Frameworks and Utilities </ListTitle>
     <List5>
+
+    <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/DOCKER.jpeg'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>Docker</ListParagraph>
+      </ListItem>
+
       <ListItem>
         <ImageContainer>
-          <ListIcon src={'/images/spring-boot-logo.png'}></ListIcon>
+          <ListIcon src={'/images/GRAPHQL.png'}></ListIcon>
         </ImageContainer>
-        <ListParagraph>Spring Boot</ListParagraph>
+        <ListParagraph>GraphQL</ListParagraph>
       </ListItem>
-      <ListItem>
-        <ImageContainer>
-          <ListIcon src={'/images/django.png'}></ListIcon>
-        </ImageContainer>
-        <ListParagraph>Django</ListParagraph>
-      </ListItem>
-      <ListItem>
-        <ImageContainer>
-          <ListIcon src={'/images/nodejs.png'}></ListIcon>
-        </ImageContainer>
-        <ListParagraph>Node.js</ListParagraph>
-      </ListItem>
+
       <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/react.png'}></ListIcon>
         </ImageContainer>
         <ListParagraph>React</ListParagraph>
       </ListItem>
+
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/POSTMAN.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>Postman</ListParagraph>
+      </ListItem>
+    
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/django.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>Django</ListParagraph>
+      </ListItem>
+
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/OPENCV.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>OpenCV</ListParagraph>
+      </ListItem>
+
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/nodejs.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>Node.js</ListParagraph>
+      </ListItem>
+
       <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/bootstrap.png'}></ListIcon>
         </ImageContainer>
         <ListParagraph>Bootstrap</ListParagraph>
       </ListItem>
+
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/GIT.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>GIT</ListParagraph>
+      </ListItem> 
+
     </List5>
-    <ListTitle>Databases</ListTitle>
-    <List2>
+    <ListTitle>Databases And Cloud</ListTitle>
+    <List3>
       <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/mysql.png'}></ListIcon>
@@ -77,30 +117,36 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <ImageContainer>
-          <ListIcon src={'/images/mongodb.png'}></ListIcon>
+          <ListIcon src={'/images/OCI.png'}></ListIcon>
         </ImageContainer>
-        <ListParagraph>MongoDB</ListParagraph>
+        <ListParagraph>OCI</ListParagraph>
       </ListItem>
-    </List2>
+      <ListItem>
+        <ImageContainer>
+          <ListIcon src={'/images/AWS.png'}></ListIcon>
+        </ImageContainer>
+        <ListParagraph>AWS</ListParagraph>
+      </ListItem>
+    </List3>
     <ListTitle>Competitive Programming</ListTitle>
     <List3>
       <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/cc.png'}></ListIcon>
         </ImageContainer>
-        <LinkItem href="https://www.codechef.com/users/tejaswita_269">CodeChef</LinkItem>
+        <LinkItem href="https://www.codechef.com/users/adikr_singh">CodeChef</LinkItem>
       </ListItem>
       <ListItem>
         <ImageContainer>
           <ListIcon src={'/images/cf.png'}></ListIcon>
         </ImageContainer>
-        <LinkItem href="https://codeforces.com/profile/Charisma">Codeforces</LinkItem>
+        <LinkItem href="https://codeforces.com/profile/adkrsingh">Codeforces</LinkItem>
       </ListItem>
       <ListItem>
         <ImageContainer>
-          <ListIcon src={'/images/lc.png'} href = "https://www.codechef.com/users/tejaswita_269"></ListIcon>
+          <ListIcon src={'/images/lc.png'}></ListIcon>
         </ImageContainer>
-        <LinkItem href="https://leetcode.com/user3259H/">LeetCode</LinkItem>
+        <LinkItem href="https://leetcode.com/adikrsingh/">LeetCode</LinkItem>
       </ListItem>
     </List3>
   </Section>

@@ -10,14 +10,12 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I enjoy creating beautiful, interactive web applications and have done several self and team projects. I am eager to learn new tech stacks and implement them in future works. Whenever I visit a new website, I explore how the website works in the backend. Chrome Inspect is one of my favourite places to learn. 
+      I get satisfaction and joy after creating software products that gives value to people's life.
       </SectionText>
       <SectionText>
-      I also have a knack for Problem Solving and also like to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef and others.
+      I aso have a knack for Problem Solving and also like to participate in Competitive Programming Contests on platforms like Codeforces, CodeChef and others.
       </SectionText>
-      <SectionText>
-      Apart from Programming and Development, I love to pursue my hobby - dancing. I have wonderful memories of dancing during my school and college days about practising, performing and winning in competitions.
-      </SectionText>
+      
     </Section>
   );
 };

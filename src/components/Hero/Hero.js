@@ -10,24 +10,19 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Hey There! <br />
-          This is Tejaswita Som  
+          This is adikrsingh <br /> (Aditya Kumar Singh)
         </SectionTitle>
         <SectionText>
-        A Senior Undergraduate from IIT(BHU) - Varanasi, with a zeal to apply the creative mind and technical skills to solve real-world problems, through Data Structures, Algorithms and Software Development. 
+        A Senior Undergraduate from IIT(BHU) - Varanasi . I love to solve real-world problems, through Data Structures, Algorithms and Software Development. 
         </SectionText>
         <br/>
-        <ExternalLinks href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</ExternalLinks>
-        {/* <Button onClick={props.handleClick} href={'https://drive.google.com/file/d/1CLrPVTgjEXiPsXSvSfmtBRsHM_zB5U34/view?usp=sharing'}>Link to Resume</Button> */}
+        <ExternalLinks href={'https://drive.google.com/file/d/1MXylX0EEV_F2NgrtLxjNzx2ajWX5Fi19/view?usp=sharing'}>Link to Resume</ExternalLinks>
+        {/* <Button onClick={props.handleClick} href={'https://drive.google.com/file/d/1MXylX0EEV_F2NgrtLxjNzx2ajWX5Fi19/view?usp=sharing'}>Link to Resume</Button> */}
       </LeftSection>
       <ImageContainer>
-        <Img src={"/images/Profile (2).jpeg"}></Img>
+        <Img src={"/images/profile.jpeg"}></Img>
       </ImageContainer>
-      {/* <RightSection >
-        <SectionText>
-          aasdfghjk
-          </SectionText>
-        <Img src={'/images/JSW.png'} />
-      </RightSection> */}
+
     </Section>
   </>
 );

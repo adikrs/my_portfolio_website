@@ -21,22 +21,22 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Copyright 2021 @ Tejaswita Som</Slogan>
+          <Slogan>Copyright 2021 @ adikrsingh</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="mailto:tejaswitasom.che18@iitbhu.ac.in">
+          <SocialIcons href="mailto:adityakrsingh.ece18@iitbhu.ac.in">
             <SiGmail size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com/TejaswitaSom">
+          <SocialIcons href="https://github.com/adikrs">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/tejaswita-som-574539173/">
+          <SocialIcons href="https://www.linkedin.com/in/aditya-kumar-singh-7a045a171/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.facebook.com/tejaswita.som/">
+          <SocialIcons href="https://www.facebook.com/aks.adikrsingh/">
             <AiFillFacebook size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/26tejaswita_som/">
+          <SocialIcons href="https://www.instagram.com/adikrsingh/">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
